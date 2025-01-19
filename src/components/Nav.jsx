@@ -10,16 +10,14 @@ function Nav() {
               value="card"
               className="flex-1 w-40 hover:bg-gray-400 text-black"
               asChild>
-              <Link to="/BakarTask-Reactjs-Shadcn-ui/card">Card</Link>
+              <Link to="/card">Card</Link>
             </TabsTrigger>
             <TabsTrigger
               variant="none"
               value="Transactions"
               className="flex-1 w-40 hover:bg-gray-400 text-black"
               asChild>
-              <Link to="/BakarTask-Reactjs-Shadcn-ui/transactions">
-                Transactions
-              </Link>
+              <Link to="/transactions">Transactions</Link>
             </TabsTrigger>
           </TabsList>
         </Tabs>

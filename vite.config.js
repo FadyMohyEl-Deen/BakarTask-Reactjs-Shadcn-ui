@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: `/BakarTask-Reactjs-Shadcn-ui/`,
+  base: `/`,
   plugins: [react()],
   resolve: {
     alias: {

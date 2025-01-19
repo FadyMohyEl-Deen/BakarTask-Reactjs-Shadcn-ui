@@ -11,11 +11,11 @@ function App() {
         <div className="flex justify-center py-10">
           <Routes>
             <Route
-              path="/BakarTask-Reactjs-Shadcn-ui/card"
+              path="/card"
               element={<CardPage />}
             />
             <Route
-              path="/BakarTask-Reactjs-Shadcn-ui/transactions"
+              path="/transactions"
               element={<TransactionsPage />}
             />
           </Routes>

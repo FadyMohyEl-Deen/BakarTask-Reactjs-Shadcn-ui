@@ -34,7 +34,7 @@ export default function TransactionsPage() {
     } catch (err) {
       setError(err.message);
       setLoading(false);
-    }
+    } 
   };
 
   const getStatusColor = (status) => {
