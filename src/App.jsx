@@ -10,14 +10,9 @@ function App() {
         <Nav />
         <div className="flex justify-center py-10">
           <Routes>
-            <Route
-              path="/card"
-              element={<CardPage />}
-            />
-            <Route
-              path="/transactions"
-              element={<TransactionsPage />}
-            />
+            <Route path="/card" element={<CardPage />} />
+            <Route path="/" element={<CardPage />} />
+            <Route path="/transactions" element={<TransactionsPage />} />
           </Routes>
         </div>
       </Router>
