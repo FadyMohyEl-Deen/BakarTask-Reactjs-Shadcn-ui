@@ -41,7 +41,7 @@ export function CreditCard({
           <div className="mt-8 flex justify-between text-sm">
             <div>
               <p className="text-start">Cardholder</p>
-              <p>{cardholderName}</p>
+              <p className="font-medium">{cardholderName}</p>
             </div>
             <div>
               <p className="font-light text-start">Expires</p>

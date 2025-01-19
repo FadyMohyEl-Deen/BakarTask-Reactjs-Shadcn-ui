@@ -7,11 +7,17 @@ function App() {
   return (
     <>
       <Router>
-        <Nav /> 
+        <Nav />
         <div className="flex justify-center py-10">
           <Routes>
-            <Route path="/card" element={<CardPage />} />
-            <Route path="/transactions" element={<TransactionsPage />} />
+            <Route
+              path="/BakarTask-Reactjs-Shadcn-ui/card"
+              element={<CardPage />}
+            />
+            <Route
+              path="/BakarTask-Reactjs-Shadcn-ui/transactions"
+              element={<TransactionsPage />}
+            />
           </Routes>
         </div>
       </Router>
